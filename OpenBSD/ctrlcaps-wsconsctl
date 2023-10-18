@@ -1,0 +1,7 @@
+# Remap Caps Lock to additional Ctrl (with wsconsctl)
+#
+# Installation:
+#   sed '2,4d' ctrlcaps-wsconsctl >>/etc/wsconsctl.conf
+
+keyboard.map+="keysym Caps_Lock = Control_L"
+
