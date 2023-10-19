@@ -1,0 +1,8 @@
+# Remap Caps Lock to Ctrl and Shift+Shift to Caps Lock (for wscons)
+#
+# Installation:
+#   sed '2,4d' capsctrlshift-wscons >>/etc/wsconsctl.conf
+
+keyboard.map+="keycode 29 = Control_L"
+keyboard.map+="keycode 42 =   Shift_L    Caps_Lock"
+
