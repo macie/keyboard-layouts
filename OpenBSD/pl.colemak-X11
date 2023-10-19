@@ -1,0 +1,6 @@
+# Polish Colemak keyboard layout with international keys (for X11)
+#
+# Installation (with Caps Lock remapping):
+#   printf '\n# Colemak PL with Caps Lock remapping\nsetxkbmap pl colemak caps:ctrl_modifier shift:both_capslock -print | xkbcomp - $DISPLAY\n' | tee -a ~/.xsession | eval
+
+# Polish Colemak is defined in: /usr/X11R6/share/X11/xkb/symbols/pl
