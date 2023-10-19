@@ -1,4 +1,4 @@
-# pl.workman keyboard layout for wsconsctl
+# Polish Workman keyboard layout (for wscons)
 #
 # Installation:
 #   sed '2,4d' pl.workman-wsconsctl >>/etc/wsconsctl.conf

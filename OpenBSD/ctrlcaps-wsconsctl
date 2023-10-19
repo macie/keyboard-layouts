@@ -1,4 +1,4 @@
-# Remap Caps Lock to additional Ctrl (with wsconsctl)
+# Remap Caps Lock to additional Ctrl (for wscons)
 #
 # Installation:
 #   sed '2,4d' ctrlcaps-wsconsctl >>/etc/wsconsctl.conf

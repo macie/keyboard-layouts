@@ -1,4 +1,4 @@
-# pl.colemak keyboard layout for wsconsctl
+# Polish Colemak keyboard layout (for wscons)
 #
 # Installation:
 #   sed '2,4d' pl.colemak-wsconsctl >>/etc/wsconsctl.conf
