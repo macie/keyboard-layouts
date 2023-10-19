@@ -1,7 +1,7 @@
 # Polish Workman keyboard layout (for wscons)
 #
 # Installation:
-#   sed '2,4d' pl.workman-wsconsctl >>/etc/wsconsctl.conf
+#   sed '2,4d' pl.workman-wscons >>/etc/wsconsctl.conf
 
 keyboard.map+="keycode  41 =          grave    asciitilde       dead_tilde        asciitilde "
 keyboard.map+="keycode   2 =              1        exclam       exclamdown       onesuperior "
